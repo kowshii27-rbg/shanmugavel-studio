@@ -1,11 +1,12 @@
 import { clsx } from "clsx";
 import Container from "./Container";
+import type { ReactNode } from "react";
 
 type Props = {
   id?: string;
-  children: React.ReactNode;
+  children: ReactNode;
   className?: string;
-  as?: keyof JSX.IntrinsicElements;
+  as?: keyof React.JSX.IntrinsicElements;
 };
 
 export default function Section({ id, children, className, as: Tag = "section" }: Props) {
