@@ -1,0 +1,30 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Booking {
+  id            String   @id @default(cuid())
+  name          String   @db.VarChar(255)
+  email         String   @db.VarChar(255)
+  phone         String   @db.VarChar(50)
+  shootType     String   @db.VarChar(100)
+  preferredDate String?  @db.VarChar(50)
+  time          String?  @db.VarChar(50)
+  location      String   @db.VarChar(50)
+  message       String   @db.Text
+  status        String   @default("pending") @db.VarChar(20) // pending, confirmed, cancelled
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([email])
+  @@index([createdAt])
+  @@map("bookings")
+}
