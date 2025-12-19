@@ -18,7 +18,7 @@ export const services: Service[] = [
     title: "Wedding Collections",
     summary: "Full-day coverage with cinematic storytelling and luxury albums.",
     idealFor: "Traditional + candid coverage across all wedding events",
-    price: "Starts at ₹25,000 - ₹50,000",
+    price: 'Please Contact For Enquiry',
     inclusions: [
       "Up to 10 hours of coverage",
       "2 photographers + 1 cinematographer",
@@ -30,7 +30,7 @@ export const services: Service[] = [
     title: "Portrait Sessions",
     summary: "Studio or outdoor editorial portraits with custom styling.",
     idealFor: "Individuals, founders, artists, graduates",
-    price: "Starts at ₹8,500",
+    price: "Please Contact For Enquiry",
     inclusions: [
       "90-minute session",
       "2-3 looks, light direction",
@@ -43,7 +43,7 @@ export const services: Service[] = [
     title: "Kids & Family",
     summary: "Candid, heartfelt milestones for newborns and families.",
     idealFor: "Newborns, maternity, birthdays, family days",
-    price: "Starts at ₹12,000",
+    price: "Please Contact For Enquiry",
     inclusions: [
       "Up to 3-hour session",
       "Studio props & wardrobe guidance",
@@ -56,7 +56,7 @@ export const services: Service[] = [
     title: "Product & Brand",
     summary: "Conversion-focused visuals for ecommerce and campaigns.",
     idealFor: "D2C, marketplaces, catalog, hero creatives",
-    price: "Starts at ₹18,000",
+    price: "Please Contact For Enquiry",
     inclusions: [
       "Shot list + lighting plan",
       "Up to 30 SKUs / day",
@@ -69,7 +69,7 @@ export const services: Service[] = [
     title: "Events & Corporate",
     summary: "Sharp documentation of conferences and launches.",
     idealFor: "Corporate events, summits, launches, social gatherings",
-    price: "Starts at ₹15,000",
+    price: "Please Contact For Enquiry",
     inclusions: [
       "Multi-cam coverage",
       "Same-day social selects",
